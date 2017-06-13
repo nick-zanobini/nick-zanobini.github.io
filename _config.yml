@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Nick Zanobini's Blog"
+title                    : "Nick Zanobini"
 title_separator          : "-"
 name                     : "Nick Zanobini"
 description              : "A place to share my robotics, coding and eletronics projecets and thoughts."
@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Nick Zanobini"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/nick_headshot.jpg" 
   bio              : "I am an amazing person."
   location         : "Los Angeles, CA"
   email            :
@@ -89,12 +89,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/nick-zanobini"
+  github           : "nick-zanobini"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/nickzanobini/"
+  linkedin         : "nickzanobini"
   pinterest        :
   soundcloud       :
   stackoverflow    : 
