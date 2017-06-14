@@ -1,4 +1,5 @@
 ---
+layout: single
 author: nickzanobini
 comments: true
 date: 2016-11-23 05:40:10

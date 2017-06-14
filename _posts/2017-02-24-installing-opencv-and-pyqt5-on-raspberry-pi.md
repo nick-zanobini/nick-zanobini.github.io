@@ -1,4 +1,5 @@
 ---
+layout: single
 author: Nick Zanobini
 comments: true
 date: 2017-02-24 05:59:58
