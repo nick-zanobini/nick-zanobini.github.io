@@ -66,21 +66,21 @@ Here's what I did to get the arm connected and talking to my RPi. I assume you a
     
   * Next we need to configure the RPi for serial communication to the AX12a servos. (I use nano but you can use any editor you want)
 
-    * Set the configuration parameters in `/boot/config.txt` by running:
+    * Set the configuration parameters in `/boot/config.txt` by running:  
       
         {% highlight bash %}
         sudo nano /boot/config.txt
         {% endhighlight %}
 
-    * Change or add the following lines:
+    * Change or add the following lines:  
 
         {% highlight ruby %}
         init_uart_clock = 160000000
         sudo stty -F /dev/ttyAMA0 10000000
         {% endhighlight %}  
 
-    * Save these changes and exit nano
-    * Prevent any other processes from using the serial port ttyAMA0 by commenting out all options mentioning ttyAMA0 in both `/boot/cmdline.txt` and `/etc/inittab`
+    * Save these changes and exit nano  
+    * Prevent any other processes from using the serial port ttyAMA0 by commenting out all options mentioning ttyAMA0 in both `/boot/cmdline.txt` and `/etc/inittab`  
       
         {% highlight ruby %}
         sudo nano /boot/cmdline.txt
@@ -89,7 +89,7 @@ Here's what I did to get the arm connected and talking to my RPi. I assume you a
 
       * Save these changes and exit nano by pressing
     
-  * Now if you have a RPi 2 you can skip this step. If you have a RPi 3 you need to disable the Bluetooth which uses ttyAMA0 as well and point the serial port you connected earlier to ttyAMA0.
+  * Now if you have a RPi 2 you can skip this step. If you have a RPi 3 you need to disable the Bluetooth which uses `ttyAMA0` as well and point the serial port you connected earlier to ttyAMA0.
   * Congrats you are now ready to use your arm with your RPi.
   * I tested mine with the following python script which sends a fixed location to servo 1 pauses and then sends another location to servo 1. If it moves then you set up everything correctly.
 
