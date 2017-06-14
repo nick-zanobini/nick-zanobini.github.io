@@ -1,17 +1,8 @@
 ---
-layout: single
-author: nickzanobini
-comments: true
-date: 2016-11-05 19:26:11
-title: Connecting Trossen Robotics PhantomX Pincher Arm to a Raspberry Pi
-categories:
-- arm
-- ax12a
-- raspberrypi
-- robotarm
-- Robotics
-- rpi
-- trossen
+layout: post
+title:  "Connecting Trossen Robotics PhantomX Pincher Arm to a Raspberry Pi"
+date:   2016-11-05 19:26:11
+categories: arm ax12a raspberrypi robotarm Robotics rpi trossen
 ---
 
 I bought a [Trossen Robotics PhantomX Pincher Arm](http://www.trossenrobotics.com/p/PhantomX-Pincher-Robot-Arm.aspx) recently and wanted to build a vision based pick and place system to get better with OpenCV and Python.
