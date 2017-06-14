@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: https://nick-zanobini.github.io
   - title: "Projects"
-    url: /_pages/projects-archive.html
+    url: /portfolio/
   - title: "Posts"
     url: /posts/
   - title: "Contact"
