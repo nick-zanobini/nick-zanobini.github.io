@@ -65,11 +65,13 @@ Here's what I did to get the arm connected and talking to my RPi. I assume you a
 ![](http://nickzanobini.files.wordpress.com/2016/11/img_0525.png)![](http://nickzanobini.files.wordpress.com/2016/11/2.png)
     
   * Next we need to configure the RPi for serial communication to the AX12a servos. (I use nano but you can use any editor you want)
-    
+
     * Set the configuration parameters in `/boot/config.txt` by running:
+      
       {% highlight bash %}
       sudo nano /boot/config.txt
-      {% endhighlight %}  
+      {% endhighlight %}
+        
     * Change or add the following lines:
       {% highlight ruby %}
       init_uart_clock = 160000000
