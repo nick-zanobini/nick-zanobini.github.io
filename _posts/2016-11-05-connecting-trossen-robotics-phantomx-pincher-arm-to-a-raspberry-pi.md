@@ -71,14 +71,17 @@ Here's what I did to get the arm connected and talking to my RPi. I assume you a
       {% highlight bash %}
       sudo nano /boot/config.txt
       {% endhighlight %}
-        
+
     * Change or add the following lines:
+
       {% highlight ruby %}
       init_uart_clock = 160000000
       sudo stty -F /dev/ttyAMA0 10000000
       {% endhighlight %}  
+
     * Save these changes and exit nano
     * Prevent any other processes from using the serial port ttyAMA0 by commenting out all options mentioning ttyAMA0 in both `/boot/cmdline.txt` and `/etc/inittab`
+      
       {% highlight ruby %}
       sudo nano /boot/cmdline.txt
       sudo nano /etc/inittab
