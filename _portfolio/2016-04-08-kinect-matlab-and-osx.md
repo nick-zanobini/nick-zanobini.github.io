@@ -1,5 +1,5 @@
 ---
-layout: simple
+layout: single
 title: Kinect MATLAB and OSX
 date: 2016-04-08 18:43
 author: nickzanobini
