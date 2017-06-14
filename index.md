@@ -2,9 +2,8 @@
 layout: single
 author_profile: true
 ---
-
-<!-- ## About Me -->
-## TEST
+<!-- git add * && git commit -m "Setting Up" && git push -->
+## About Me
 
 Hi I'm Nick Zanobini. Thanks for visiting!  
 
