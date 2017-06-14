@@ -1,12 +1,9 @@
 ---
 author: nickzanobini
 comments: true
-date: 2016-12-01 05:58:35+00:00
+date: 2016-12-01 05:58:35
 layout: post
-link: https://nickzanobini.wordpress.com/2016/12/01/raspberry-pi-cheat-sheet/
-slug: raspberry-pi-cheat-sheet
 title: Raspberry Pi Cheat Sheet
-wordpress_id: 587
 ---
 
 ### List all devices connected to the network

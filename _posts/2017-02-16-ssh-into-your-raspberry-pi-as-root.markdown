@@ -1,12 +1,9 @@
 ---
 author: nickzanobini
 comments: true
-date: 2017-02-16 04:47:31+00:00
+date: 2017-02-16 04:47:31
 layout: post
-link: https://nickzanobini.wordpress.com/2017/02/16/ssh-into-your-raspberry-pi-as-root/
-slug: ssh-into-your-raspberry-pi-as-root
 title: SSH into your Raspberry Pi as root
-wordpress_id: 647
 ---
 
 Login, and edit this file:

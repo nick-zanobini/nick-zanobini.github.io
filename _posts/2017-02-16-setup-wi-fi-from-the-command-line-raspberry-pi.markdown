@@ -1,12 +1,9 @@
 ---
 author: nickzanobini
 comments: true
-date: 2017-02-16 04:45:23+00:00
+date: 2017-02-16 04:45:23
 layout: post
-link: https://nickzanobini.wordpress.com/2017/02/16/setup-wi-fi-from-the-command-line-raspberry-pi/
-slug: setup-wi-fi-from-the-command-line-raspberry-pi
 title: Setup Wi-Fi from the Command Line on a Raspberry Pi
-wordpress_id: 641
 ---
 
 Open the `wpa-supplicant` configuration file in nano:

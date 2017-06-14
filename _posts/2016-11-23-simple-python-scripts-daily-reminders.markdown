@@ -1,12 +1,9 @@
 ---
 author: nickzanobini
 comments: true
-date: 2016-11-23 05:40:10+00:00
+date: 2016-11-23 05:40:10
 layout: post
-link: https://nickzanobini.wordpress.com/2016/11/23/simple-python-scripts-daily-reminders/
-slug: simple-python-scripts-daily-reminders
 title: 'Simple Python Scripts: Daily Reminders'
-wordpress_id: 327
 categories:
 - raspberrypi
 - rpi

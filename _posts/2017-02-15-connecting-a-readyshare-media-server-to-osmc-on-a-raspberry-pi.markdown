@@ -1,12 +1,9 @@
 ---
 author: nickzanobini
 comments: true
-date: 2017-02-15 04:33:30+00:00
+date: 2017-02-15 04:33:30
 layout: post
-link: https://nickzanobini.wordpress.com/2017/02/15/connecting-a-readyshare-media-server-to-osmc-on-a-raspberry-pi/
-slug: connecting-a-readyshare-media-server-to-osmc-on-a-raspberry-pi
 title: Connecting a ReadyShare Media Server to OSMC on a Raspberry Pi
-wordpress_id: 625
 ---
 
 I have OSMC installed on a Raspberry Pi 2, and a Netgear router with a 3TB HDD attached. I store all my movies and TV shows on the hard drive and wanted to add them to OSMC.

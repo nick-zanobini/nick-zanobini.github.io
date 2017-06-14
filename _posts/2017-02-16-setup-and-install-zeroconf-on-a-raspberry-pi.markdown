@@ -1,12 +1,9 @@
 ---
 author: nickzanobini
 comments: true
-date: 2017-02-16 04:48:24+00:00
+date: 2017-02-16 04:48:24
 layout: post
-link: https://nickzanobini.wordpress.com/2017/02/16/setup-and-install-zeroconf-on-a-raspberry-pi/
-slug: setup-and-install-zeroconf-on-a-raspberry-pi
 title: Setup and Install Zeroconf on a Raspberry Pi
-wordpress_id: 650
 ---
 
 Zeroconfig allows you to access your Raspberry Pi using the hostname instead of the IP address.

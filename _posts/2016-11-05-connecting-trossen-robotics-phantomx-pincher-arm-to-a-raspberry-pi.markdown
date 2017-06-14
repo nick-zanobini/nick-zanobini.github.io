@@ -1,12 +1,8 @@
 ---
 author: nickzanobini
 comments: true
-date: 2016-11-05 19:26:11+00:00
-layout: post
-link: https://nickzanobini.wordpress.com/2016/11/05/connecting-trossen-robotics-phantomx-pincher-arm-to-a-raspberry-pi/
-slug: connecting-trossen-robotics-phantomx-pincher-arm-to-a-raspberry-pi
+date: 2016-11-05 19:26:11
 title: Connecting Trossen Robotics PhantomX Pincher Arm to a Raspberry Pi
-wordpress_id: 252
 categories:
 - arm
 - ax12a

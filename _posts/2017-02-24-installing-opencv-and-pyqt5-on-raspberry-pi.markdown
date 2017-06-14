@@ -1,12 +1,9 @@
 ---
-author: nickzanobini
+author: Nick Zanobini
 comments: true
-date: 2017-02-24 05:59:58+00:00
+date: 2017-02-24 05:59:58
 layout: post
-link: https://nickzanobini.wordpress.com/2017/02/24/installing-opencv-and-pyqt5-on-raspberry-pi/
-slug: installing-opencv-and-pyqt5-on-raspberry-pi
 title: Installing OpenCV and PyQT5 on Raspberry Pi
-wordpress_id: 725
 ---
 
 PyQt5 is available as a collection of packages for Debian 8 (Jessie). To install a basic set of PyQt5 modules, you need to [install PyQt5](https://gist.github.com/garyjohnson/f041d2274dccd6641c51).
