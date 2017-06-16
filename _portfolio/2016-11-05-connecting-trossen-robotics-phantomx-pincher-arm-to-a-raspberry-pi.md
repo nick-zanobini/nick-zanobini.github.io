@@ -36,6 +36,7 @@ You can see my other [post](link to post) on how to setup the arm and connect it
 | Sain Smart Relay Module   | [link](https://smile.amazon.com/dp/B00VRUAHLE/ref=cm_sw_r_cp_dp_T2_ee3qzbQCYKBYX)  | cell6   |
 |=====
 | Foot1   | Foot2   | Foot3
+{: rules="groups"}
 
 I bought a [Trossen Robotics PhantomX Pincher Arm](http://www.trossenrobotics.com/p/PhantomX-Pincher-Robot-Arm.aspx) recently and wanted to build a vision based pick and place system to get better with OpenCV and Python.
 
