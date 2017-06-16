@@ -1,9 +1,41 @@
 ---
 layout: single
-title:  "Connecting Trossen Robotics PhantomX Pincher Arm to a Raspberry Pi"
+title:  "Vision Controlled 4DOF Robotic Arm"
 date:   2016-11-05 19:26:11
-tags:   arm ax12a raspberrypi robotarm Robotics rpi trossen
+tags:   arm ax12a raspberrypi robotarm Robotics rpi trossen python opencv vision
+header:
+  image: /assets/images/foo-bar-identity.jpg
+  teaser: /assets/images/foo-bar-identity-th.jpg
 ---
+
+I have always been fascinated by the industrial robotic arms and the fully automated robotic assembly lines of automakers. Knowing I didn't have the money or the space for a full sized industrial robotic arm I settled for a smaller hobby arm that I can operate on my coffee table. I purchased a [Trossen Robotics PhantomX Pincher Arm](http://www.trossenrobotics.com/p/PhantomX-Pincher-Robot-Arm.aspx) and set off to build this arm. 
+
+You can see my other [post](link to post) on how to setup the arm and connect it directly to the RPi. Here is everything I needed for this project:
+
+## Bill of Materials 
+
+| Item | Where to Buy It | Cost |
+|:--------|:-------:|--------:|
+| Robotic Arm with ArbotiX-M Microcontroller|[link](http://www.trossenrobotics.com/p/PhantomX-Pincher-Robot-Arm.aspx)| cell3|
+| Webcam          | [link](https://smile.amazon.com/dp/B006JH8T3S/ref=cm_sw_r_cp_dp_T2_WD3qzbDARFMRY)   | cell6   |
+| 1in x 1in x 2ft length of wood   | [link]()  | cell3   |
+| Scrap plywood   | [link]()  | cell6   |
+| 2 Right Angle Brackets | [link]()  | cell6   |
+| 1 Longer Right Angle Bracket | [link]()  | cell6   |
+| 74LS241         | [link](http://www.uni-kl.de/elektronik-lager/417791)  | cell6   |
+| Raspberry Pi 2 or 3 | [link](https://smile.amazon.com/dp/B01CD5VC92/ref=cm_sw_r_cp_dp_T2_xi3qzbQ0A26T0)  | cell6   |
+| computer        | [link]()  | cell6   |
+| 12V 5A SMPS DC power supply | [link](https://smile.amazon.com/dp/B00TVWEGQ2/ref=cm_sw_r_cp_dp_T2_Ph3qzbY66B81R)  | cell6   |
+| Jumper wires    | [link](https://smile.amazon.com/dp/B005TZJ0AM/ref=cm_sw_r_cp_dp_T2_Xg3qzbAX4DHWT)  | cell6   |
+| Breadboard      | [link](https://smile.amazon.com/dp/B01DDI54II/ref=cm_sw_r_cp_dp_T2_Zg3qzbZA7N3SE)  | cell6   |
+| USB to FTDI cable   | [link](http://www.trossenrobotics.com/store/p/6406-FTDI-Cable-5V.aspx)  | cell6   |
+| 2 10-32 Phillips head counter sunk screws | [link](https://smile.amazon.com/dp/B01M0YDNX0/ref=cm_sw_r_cp_dp_T2_gf3qzbTFSJ855)  | cell6   |
+| 5 10-32 Phillips Flat head screws | [link](https://smile.amazon.com/dp/B01I28XAUI/ref=cm_sw_r_cp_dp_T2_zf3qzbRGQZ5KA)  | cell6   |
+| 1 roll double sided tape | [link](https://smile.amazon.com/dp/B0007P5G8Y/ref=cm_sw_r_cp_dp_T2_He3qzbXCTHJA0)  | cell6   |
+| Buck Converter USB out   | [link](https://smile.amazon.com/dp/B00XPZ7I4I/ref=cm_sw_r_cp_dp_T2_cb3qzbW1ZZ673)  | cell6   |
+| Sain Smart Relay Module   | [link](https://smile.amazon.com/dp/B00VRUAHLE/ref=cm_sw_r_cp_dp_T2_ee3qzbQCYKBYX)  | cell6   |
+|=====
+| Foot1   | Foot2   | Foot3
 
 I bought a [Trossen Robotics PhantomX Pincher Arm](http://www.trossenrobotics.com/p/PhantomX-Pincher-Robot-Arm.aspx) recently and wanted to build a vision based pick and place system to get better with OpenCV and Python.
 

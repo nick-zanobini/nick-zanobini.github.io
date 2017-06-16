@@ -1,10 +1,9 @@
 ---
 layout: single
-title: Kinect MATLAB and OSX
-date: 2016-04-08 18:43
-author: nickzanobini
-comments: true
-categories: [kinect, mac, matlab, osx, Programming, Robotics]
+title:  Kinect MATLAB and OSX
+date:   2016-04-08 18:43
+comments:   true
+tags:   kinect, mac, matlab, osx, Programming, Robotics
 ---
 I recently wanted to use my old Xbox 360 Kinect on my MacBook in MATLAB for a project. Well I did a little research and there wasn't a ton of up to date info out there. Here is a little step by step guide to install all the necessary components to get it working on a Mac running OSX 10.11.x El Capitan.
 
@@ -30,8 +29,7 @@ sudo port selfupdate
 sudo port upgrade outdated
 {% endhighlight %}
 
-    *
-<p class="p1">Check to see if you Systems Integrity Protection is enabled by running the following in Terminal</p>
+    *Check to see if you Systems Integrity Protection is enabled by running the following in Terminal
 
 
 {% highlight bash %}
@@ -86,7 +84,7 @@ mex -setup
 
 {% highlight bash %}
 cd ~
-mkdir kinect &amp;&amp; cd kinect
+mkdir kinect && cd kinect
 wget http://openni.ru/wp-content/uploads/2013/11/OpenNI-Bin-Dev-MacOSX-v1.5.7.10.tar.zip
 wget http://openni.ru/wp-content/uploads/2012/12/NITE-Bin-MacOSX-v1.5.2.21.tar.zip
 wget https://github.com/avin2/SensorKinect/archive/unstable.zip
@@ -115,7 +113,7 @@ sudo ./install.sh
 
 {% highlight bash %}
 cd ..
-open unstable.zip &amp;&amp; mv SensorKinect-unstable/ SensorKinect
+open unstable.zip && mv SensorKinect-unstable/ SensorKinect
 cd SensorKinect/Bin
 open SensorKinect093-Bin-MacOSX-v5.1.2.1.tar.bz2
 cd Sensor-Bin-MacOSX-v5.1.2.1

@@ -1,15 +1,14 @@
 ---
 layout: single
-author: nickzanobini
 comments: true
-date: 2017-02-22 04:06:21
-layout: post
-title: Auto Generating a requests.txt from a Python File
+date: 	2017-02-22 04:06:21
+title: 	Auto Generating a requests.txt from a Python File
+tags:   python pip
 ---
 
 If you ever wondered how to get a requirements.txt from a folder containing Python files, there's an easy solution.
-[code language="bash" light="true"]
+{% highlight bash %}
 pip install pipreqs
 pipreqs path_to_python_project
-[/code]
+{% endhighlight %} 
 There you go. You will have a requirements.txt that will encompass the files in your folder.
