@@ -16,7 +16,7 @@ You can see my other [post](link to post) on how to setup the arm and connect it
 
 | Item | Where to Buy It | Cost |
 |:--------|:-------:|--------:|
-| Robotic Arm with ArbotiX-M Microcontroller|[link](http://www.trossenrobotics.com/p/PhantomX-Pincher-Robot-Arm.aspx)| cell3|
+| Robotic Arm with ArbotiX-M Microcontroller | [link](http://www.trossenrobotics.com/p/PhantomX-Pincher-Robot-Arm.aspx) | cell3 |
 | Webcam          | [link](https://smile.amazon.com/dp/B006JH8T3S/ref=cm_sw_r_cp_dp_T2_WD3qzbDARFMRY)   | cell6   |
 | 1in x 1in x 2ft length of wood   | [link]()  | cell3   |
 | Scrap plywood   | [link]()  | cell6   |
