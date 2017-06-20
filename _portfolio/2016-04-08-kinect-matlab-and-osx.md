@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  Kinect MATLAB and OSX
+title:  Kinect MATLAB and OSX TEST
 date:   2016-04-08 18:43
 comments:   true
 tags:   kinect, mac, matlab, osx, Programming, Robotics
@@ -14,8 +14,8 @@ I recently wanted to use my old Xbox 360 Kinect on my MacBook in MATLAB for a pr
 xcode-select —install
 {% endhighlight %}
 
-    *Download MATLAB. Open it and accept the terms and conditions
-    *Install and update MacPorts by running the following command in Terminal
+    * Download MATLAB. Open it and accept the terms and conditions
+    * Install and update MacPorts by running the following command in Terminal
 
 {% highlight bash %}
 curl -O https://distfiles.macports.org/MacPorts/MacPorts-2.3.3.tar.bz2
