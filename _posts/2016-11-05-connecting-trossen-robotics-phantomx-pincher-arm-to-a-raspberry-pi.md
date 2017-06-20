@@ -97,7 +97,7 @@ Here's what I did to get the arm connected and talking to my RPi. I assume you a
     
   * Now if you have a RPi 2 you can skip this step. If you have a RPi 3 you need to disable the Bluetooth which uses `ttyAMA0` as well and point the serial port you connected earlier to ttyAMA0.
   * Congrats you are now ready to use your arm with your RPi.
-  * I tested mine with the following python script which sends a fixed location to servo 1 pauses and then sends another location to servo 1. If it moves then you set up everything correctly.
+  * I tested mine with a [python script]({{ site.url }}/assets/PhantomX-Pincher-Arm/ArmTest/initial_test.py) which sends a fixed location to servo 1 pauses and then sends another location to servo 1. If it moves then you set up everything correctly.
 
 ### Troubleshooting:
 
