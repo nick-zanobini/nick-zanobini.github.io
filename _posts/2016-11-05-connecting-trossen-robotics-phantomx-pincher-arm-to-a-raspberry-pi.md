@@ -68,12 +68,12 @@ Here's what I did to get the arm connected and talking to my RPi. I assume you a
 
   * Set the configuration parameters in `/boot/config.txt` by running:
 
-    `sudo nano /boot/config.txt`
+        `sudo nano /boot/config.txt`
   * Change or add the following lines:
 
 {% highlight bash %}
-init_uart_clock = 160000000
-sudo stty -F /dev/ttyAMA0 10000000
+        init_uart_clock = 160000000
+        sudo stty -F /dev/ttyAMA0 10000000
 {% endhighlight %}  
   * Save these changes and exit nano (or your other favorite text editor)  
   * Prevent any other processes from using the serial port ttyAMA0 by commenting out all options mentioning ttyAMA0 in both `/boot/cmdline.txt` and `/etc/inittab`.
