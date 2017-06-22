@@ -68,9 +68,9 @@ Here's what I did to get the arm connected and talking to my RPi. I assume you a
 
 * Set the configuration parameters in `/boot/config.txt` by running:
 
-{% highlight bash %}
-sudo nano /boot/config.txt
-{% endhighlight %}  
+    {% highlight bash %}
+    sudo nano /boot/config.txt
+    {% endhighlight %}  
   * Change or add the following lines:
 
 {% highlight bash %}
