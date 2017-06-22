@@ -66,11 +66,10 @@ Here's what I did to get the arm connected and talking to my RPi. I assume you a
     
 * Next we need to configure the RPi for serial communication to the AX12a servos. (I use nano but you can use any editor you want. For anyone not familiar with nano the way to save and exit is by pressing Ctrl+X then Y, then finally press Enter)
 
-* Set the configuration parameters in `/boot/config.txt` by running:
+  * Set the configuration parameters in `/boot/config.txt` by running:
+  
+  `sudo nano /boot/config.txt`
 
-        {% highlight bash %}
-        sudo nano /boot/config.txt
-        {% endhighlight %}  
   * Change or add the following lines:
 
 {% highlight bash %}
