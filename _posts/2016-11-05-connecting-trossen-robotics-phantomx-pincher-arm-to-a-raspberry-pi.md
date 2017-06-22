@@ -64,27 +64,27 @@ Here's what I did to get the arm connected and talking to my RPi. I assume you a
 
 ![](http://nickzanobini.files.wordpress.com/2016/11/img_0525.png)![](http://nickzanobini.files.wordpress.com/2016/11/2.png)
     
-  * Next we need to configure the RPi for serial communication to the AX12a servos. (I use nano but you can use any editor you want. For anyone not familiar with nano the way to save and exit is by pressing Ctrl+X then Y, then finally press Enter)
+* Next we need to configure the RPi for serial communication to the AX12a servos. (I use nano but you can use any editor you want. For anyone not familiar with nano the way to save and exit is by pressing Ctrl+X then Y, then finally press Enter)
 
-    * Set the configuration parameters in `/boot/config.txt` by running:
+* Set the configuration parameters in `/boot/config.txt` by running:
 
 {% highlight bash %}
 sudo nano /boot/config.txt
 {% endhighlight %}  
-    * Change or add the following lines:
+  * Change or add the following lines:
 
 {% highlight bash %}
 init_uart_clock = 160000000
 sudo stty -F /dev/ttyAMA0 10000000
 {% endhighlight %}  
-    * Save these changes and exit nano (or your other favorite text editor)  
-    * Prevent any other processes from using the serial port ttyAMA0 by commenting out all options mentioning ttyAMA0 in both `/boot/cmdline.txt` and `/etc/inittab`.
+  * Save these changes and exit nano (or your other favorite text editor)  
+  * Prevent any other processes from using the serial port ttyAMA0 by commenting out all options mentioning ttyAMA0 in both `/boot/cmdline.txt` and `/etc/inittab`.
 
 {% highlight bash %}
 sudo nano /boot/cmdline.txt
 sudo nano /etc/inittab
 {% endhighlight %}  
-    * Save these changes and exit nano (or your other favorite text editor)
+  * Save these changes and exit nano (or your other favorite text editor)
     
   * Now if you have a RPi 2 you can skip this step. If you have a RPi 3 you need to disable the Bluetooth which uses `ttyAMA0` as well and point the serial port you connected earlier to ttyAMA0.
   * Congrats you are now ready to use your arm with your RPi.
