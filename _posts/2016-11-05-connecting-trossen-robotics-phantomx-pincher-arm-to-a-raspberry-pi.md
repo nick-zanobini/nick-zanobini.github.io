@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Connecting Trossen Robotics PhantomX Pincher Arm to a Raspberry Pi 2"
+title:  "Connecting Trossen Robotics PhantomX Pincher Arm to a Raspberry Pi"
 date:   2016-11-05 19:26:11
 tags:   arm ax12a raspberrypi robotarm Robotics rpi trossen
 ---
