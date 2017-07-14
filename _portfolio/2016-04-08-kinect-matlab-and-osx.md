@@ -1,11 +1,12 @@
 ---
 layout: single
-title:  Kinect MATLAB and OSX TES
+title:  Kinect MATLAB and OSX
 date:   2016-04-08 18:43
 comments:   true
 tags:   kinect, mac, matlab, osx, Programming, Robotics
 header:
   teaser: /assets/images/smartArmProject-th.jpg
+  image: /assets/images/smartArmProject.jpg
 ---
 I recently wanted to use my old Xbox 360 Kinect on my MacBook in MATLAB for a project. Well I did a little research and there wasn't a ton of up to date info out there. Here is a little step by step guide to install all the necessary components to get it working on a Mac running OSX 10.11.x El Capitan.
 
