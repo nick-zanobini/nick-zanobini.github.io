@@ -1,9 +1,9 @@
 ---
 layout: single
-comments: true
-date:   2017-07-14 12:30:00
-title:  Error: qt_gui_main() found no plugin matching "rqt_mypkg
+title:  Error: qt_gui_main() found no plugin matching 
+date:   2017-07-14 12:30:00"rqt_mypkg
 tags:   ros rqt python linux
+comments: true
 ---
 
 

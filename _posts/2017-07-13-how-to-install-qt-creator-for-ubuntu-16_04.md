@@ -1,9 +1,9 @@
 ---
 layout: single
-comments: true
+title:  How install Qt Creator for Ubuntu 16.04
 date: 	2017-07-13 11:59:00
-title: 	How install Qt Creator for Ubuntu 16.04
 tags:	ubuntu qt linux
+comments: true
 ---
 
 
