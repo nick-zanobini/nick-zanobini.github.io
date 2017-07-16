@@ -1,8 +1,8 @@
 ---
 layout: single
-title: 	Configuring a Naitive Install of Ubuntu 16.04 LTS for Udacity's Robotics Nanodegree
-date: 	2017-07-11 03:52:00
-tags:	linux udacity ubuntu
+title:  Configuring a Naitive Install of Ubuntu 16.04 LTS for Udacity's Robotics Nanodegree
+date:   2017-07-11 04:47:31
+tags:   linux udacity ubuntu
 comments: true
 ---
 
