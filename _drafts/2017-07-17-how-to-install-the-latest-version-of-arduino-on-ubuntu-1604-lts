@@ -1,9 +1,0 @@
-
-
-1. Download the latest packages, Linux 32-bit or Linux 64-bit, from the official link: [www.arduino.cc/en/Main/Software](www.arduino.cc/en/Main/Software)  
-
-Don’t know your OS type? Go and check out System Settings -> Details -> Overview.
-
-2. Open terminal from Unity Dash, App Launcher, or via Ctrl+Alt+T keys. When it opens, run below commands one by one:
-
-`cd ~/Downloads`
