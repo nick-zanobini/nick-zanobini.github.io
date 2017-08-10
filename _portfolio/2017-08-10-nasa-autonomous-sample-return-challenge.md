@@ -15,16 +15,6 @@ sidebar:
     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
     text: "Reuters try PR stupid commenters should isn't a business model"
-gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
 ---
 
 
@@ -36,22 +26,20 @@ Here were the requirements:
 
 I decided that if I could find and collect all 6 rock samples I would have to be over the 40% mapped, so I set off to collect all 6 rock samples. Here is my best run:
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/rover_project_example_rock1.jpg){: .align-center}
-<figcaption>The results of my best run</figcaption>
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/rover_project_best_run.jpg){: .align-center}
+<figcaption >The results of my best run</figcaption>
 
 <figure>
-	<a href=/assets/images/rover_project_example_rock1.jpg"><img src=/assets/images/rover_project_example_rock1.jpg"></a>
+	<a href="/assets/images/rover_project_best_run.jpg"><img src="/assets/images/rover_project_best_run.jpg"></a>
 	<figcaption>The results of my best run</figcaption>
 </figure>
 
 The first thing I did was convert the color space to HSV in order to segment out the 3 specific regions I was looking for: The samples of interest (gold rocks), the navigable terrain (sand) and the obstacles (gray and brown rocks). In order to generate a top-down map view of the area I applied a perspective transform on the camera image and then thresholded the transformed image to get the various regions of interest. In order to better detect the small rock samples after thresholding the transformed image to find the gold rock samples I dilated each image enlarging any detected gold rocks. 
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
-
 <figure class="half">
-    <a href="/assets/images/rover_project_example_rock1.jpg"><img src=/assets/images/rover_project_example_rock1.jpg"></a>
+    <a href="/assets/images/rover_project_example_rock1.jpg"><img src="/assets/images/rover_project_example_rock1.jpg"></a>
     <a href="/assets/images/rover_project_warped.jpg"><img src="/assets/images/rover_project_warped.jpg"></a>
-    <figcaption>The raw image and the transformed image</figcaption>
+    <figcaption>The segmented rock image and the three segmented images combined</figcaption>
 </figure>
 
 <figure class="half">
