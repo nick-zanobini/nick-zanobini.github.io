@@ -21,11 +21,11 @@
         <entry file="file://$PROJECT_DIR$/_portfolio/2017-08-10-nasa-autonomous-sample-return-challenge.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <first_editor relative-caret-position="63">
+                <caret line="3" column="98" lean-forward="false" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
                 <folding>
-                  <marker date="1502394177824" expanded="true" signature="1835:2147" ph="..." />
-                  <marker date="1502394177824" expanded="true" signature="2170:2514" ph="..." />
+                  <marker date="1502394637216" expanded="true" signature="2729:3041" ph="..." />
+                  <marker date="1502394637216" expanded="true" signature="3064:3408" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -290,11 +290,11 @@
     <entry file="file://$PROJECT_DIR$/_portfolio/2017-08-10-nasa-autonomous-sample-return-challenge.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <first_editor relative-caret-position="63">
+            <caret line="3" column="98" lean-forward="false" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
             <folding>
-              <marker date="1502394177824" expanded="true" signature="1835:2147" ph="..." />
-              <marker date="1502394177824" expanded="true" signature="2170:2514" ph="..." />
+              <marker date="1502394637216" expanded="true" signature="2729:3041" ph="..." />
+              <marker date="1502394637216" expanded="true" signature="3064:3408" ph="..." />
             </folding>
           </first_editor>
           <second_editor />

@@ -1,12 +1,30 @@
 ---
 layout: single
 title:  NASA Sample Return Challenge
+excerpt: "Details on autonomously mapping a simulated environment and searching for and collecting samples of interest"
 date:   2017-08-10 05:00
 comments:   true
 tags:   python, unity, OpenCV, control, Programming, Robotics
 header:
   teaser: /assets/images/rover_project_best_run_th.jpg
   image: /assets/images/rover_project_best_run.jpg
+sidebar:
+  - title: "Role"
+    image: http://placehold.it/350x250
+    image_alt: "logo"
+    text: "Designer, Front-End Developer"
+  - title: "Responsibilities"
+    text: "Reuters try PR stupid commenters should isn't a business model"
+gallery:
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+  - url: /assets/images/unsplash-gallery-image-2.jpg
+    image_path: assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+  - url: /assets/images/unsplash-gallery-image-3.jpg
+    image_path: assets/images/unsplash-gallery-image-3-th.jpg
+    alt: "placeholder image 3"
 ---
 
 
@@ -24,6 +42,8 @@ I decided that if I could find and collect all 6 rock samples I would have to be
 </figure>
 
 The first thing I did was convert the color space to HSV in order to segment out the 3 specific regions I was looking for: The samples of interest (gold rocks), the navigable terrain (sand) and the obstacles (gray and brown rocks). In order to generate a top-down map view of the area I applied a perspective transform on the camera image and then thresholded the transformed image to get the various regions of interest. In order to better detect the small rock samples after thresholding the transformed image to find the gold rock samples I dilated each image enlarging any detected gold rocks. 
+
+{% include gallery caption="This is a sample gallery to go along with this case study." %}
 
 <figure class="half">
     <a href="/assets/images/rover_project_example_rock1.jpg"><img src=/assets/images/rover_project_example_rock1.jpg"></a>
@@ -66,7 +86,7 @@ With the data from the images I was able to develop a control algorithm. My cont
     obstacles.
 
 
-###Accomplishments:
+### Accomplishments:
  1) Rover was able to successfully navigate around the world and pick up the rocks  
     1) Converting the image to HSV let me isolate the rock easier without false positives like I was getting using 
   the default BGR color-space.  
