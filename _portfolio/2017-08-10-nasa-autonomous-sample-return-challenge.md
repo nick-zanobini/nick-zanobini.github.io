@@ -73,11 +73,11 @@ With the data from the images I was able to develop a control algorithm. My cont
 
 
 ### Accomplishments:
-1) Rover was able to successfully navigate around the world and pick up the rocks  
-    A) Converting the image to HSV let me isolate the rock easier without false positives like I was getting using the default BGR color-space.  
-    B) By eroding the detected rock I was able to make it stand out more. This allowed me to wander in the middle of the path more and still make it to the rocks.  
-2) Added turn mode to get the rover unstuck when it drove into a rock. Detects when it is trying to go forward but it not making any progress successful.
-3) When my rover is going fast (velocity > 0.8) It slams on the brakes and then turns to the rock in order to prevent over shooting the rock
+1. Rover was able to successfully navigate around the world and pick up the rocks  
+    1. Converting the image to HSV let me isolate the rock easier without false positives like I was getting using the default BGR color-space.  
+    1. By eroding the detected rock I was able to make it stand out more. This allowed me to wander in the middle of the path more and still make it to the rocks.  
+2. Added turn mode to get the rover unstuck when it drove into a rock. Detects when it is trying to go forward but it not making any progress successful.
+3. When my rover is going fast (velocity > 0.8) It slams on the brakes and then turns to the rock in order to prevent over shooting the rock
 
 This project gave me more experience with OpenCV, Feedback Control, Python, Object Recognition, Mapping, OOP.
 
