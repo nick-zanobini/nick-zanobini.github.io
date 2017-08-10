@@ -36,6 +36,9 @@ Here were the requirements:
 
 I decided that if I could find and collect all 6 rock samples I would have to be over the 40% mapped, so I set off to collect all 6 rock samples. Here is my best run:
 
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/rover_project_example_rock1.jpg){: .align-center}
+<figcaption>The results of my best run</figcaption>
+
 <figure>
 	<a href=/assets/images/rover_project_example_rock1.jpg"><img src=/assets/images/rover_project_example_rock1.jpg"></a>
 	<figcaption>The results of my best run</figcaption>
