@@ -26,9 +26,6 @@ Here were the requirements:
 
 I decided that if I could find and collect all 6 rock samples I would have to be over the 40% mapped, so I set off to collect all 6 rock samples. Here is my best run:
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/rover_project_best_run.jpg){: .align-center}
-<figcaption >The results of my best run</figcaption>
-
 <figure>
 	<a href="/assets/images/rover_project_best_run.jpg"><img src="/assets/images/rover_project_best_run.jpg"></a>
 	<figcaption>The results of my best run</figcaption>
@@ -48,12 +45,10 @@ The first thing I did was convert the color space to HSV in order to segment out
     <figcaption>The segmented rock image and the three segmented images combined</figcaption>
 </figure>
 
-
-
 From the navigable terrain image the pixel coordinates are converted to rover-centric coordinates. The rover-centric coordinates are used to calculate the angle and distance of each pixel from the rover to deterine which way to navigate. The rover-centric coordinates are also converted to world coordinates to update the world map.
 
 <figure>
-	<a href=/assets/images/rover_project_calc_path.jpg"><img src=/assets/images/rover_project_calc_path.jpg"></a>
+	<a href="/assets/images/rover_project_calc_path.jpg"><img src="/assets/images/rover_project_calc_path.jpg"></a>
 	<figcaption>Calculating the optimal direction to move</figcaption>
 </figure>
 
@@ -79,15 +74,10 @@ With the data from the images I was able to develop a control algorithm. My cont
 
 ### Accomplishments:
  1) Rover was able to successfully navigate around the world and pick up the rocks  
-    1) Converting the image to HSV let me isolate the rock easier without false positives like I was getting using 
-  the default BGR color-space.  
-    1) By eroding the detected rock I was able to make it stand out more. This allowed me to wander in the middle
-  of the path more and still make it to the rocks.  
- 2) Added turn mode to get the rover unstuck when it drove into a rock. Detects when it is trying to go forward 
- but it not making any progress (velocity = 0). This mode makes the rover turn and try and go forward until it is
- successful.
- 3) When my rover is going fast (velocity > 0.8) It slams on the brakes and then turns to the rock in order to
- prevent over shooting the rock
+    A) Converting the image to HSV let me isolate the rock easier without false positives like I was getting using the default BGR color-space.  
+    B) By eroding the detected rock I was able to make it stand out more. This allowed me to wander in the middle of the path more and still make it to the rocks.  
+ 2) Added turn mode to get the rover unstuck when it drove into a rock. Detects when it is trying to go forward but it not making any progress successful.
+ 3) When my rover is going fast (velocity > 0.8) It slams on the brakes and then turns to the rock in order to prevent over shooting the rock
 
 This project gave me more experience with OpenCV, Feedback Control, Python, Object Recognition, Mapping, OOP.
 
