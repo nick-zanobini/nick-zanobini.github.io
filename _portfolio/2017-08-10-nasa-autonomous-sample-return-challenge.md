@@ -8,13 +8,13 @@ tags:   python, unity, OpenCV, control, Programming, Robotics
 header:
   teaser: /assets/images/rover_project_best_run_th.jpg
   image: /assets/images/rover_project_best_run.jpg
-sidebar:
+<!-- sidebar:
   - title: "Role"
-    image: http://placehold.it/350x250
+    image: /assets/images/
     image_alt: "logo"
     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Reuters try PR stupid commenters should isn't a business model" -->
 ---
 
 
