@@ -1,10 +1,10 @@
 ---
 layout: single
-title:  NASA Sample Return Challenge
+title: NASA Sample Return Challenge
 excerpt: "Details on autonomously mapping a simulated environment and searching for and collecting samples of interest"
-date:   2017-08-10 05:00
-comments:   true
-tags:   python, unity, OpenCV, control, Programming, Robotics
+date: 2017-08-10 05:00
+comments: true
+tags: python,unity,OpenCV,control,Programming,Robotics
 header:
   teaser: /assets/images/rover_project_best_run_th.jpg
   image: /assets/images/rover_project_best_run.jpg
