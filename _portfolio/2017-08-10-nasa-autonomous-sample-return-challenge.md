@@ -18,7 +18,7 @@ sidebar:
 ---
 
 
-For the Udacity Robotics Nanodegree our first project was to develop the perception and control algorithms for a rover in a simulated world similar to the NASA Sample Return Challenge. We were provided an unknown environment in Unity simulation and asked to generate a map of navigateable terrain and identify samples of interest (gold rocks) from 30 FPS video stream.
+For the Udacity Robotics Nanodegree our first project was to develop the perception and control algorithms for a rover in a simulated world similar to the NASA Sample Return Challenge. We were provided an unknown environment in Unity simulation and asked to generate a map of navigable terrain and identify samples of interest (gold rocks) from 30 FPS video stream.
 
 Here were the requirements:
 
