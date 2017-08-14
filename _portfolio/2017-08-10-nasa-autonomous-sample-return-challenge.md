@@ -18,7 +18,7 @@ sidebar:
 ---
 
 
-For the Udacity Robotics Nanodegree our first project was to develop the perception and control algorithms for a rover in a simulated world similar to the NASA Sample Return Challenge. We were provided an unknown environment in Unity simulation and asked to generate a map of navigable terrain and identify samples of interest (gold rocks) from 30 FPS video stream.
+For the Udacity Robotics Nanodegree our first project was to develop the perception and control algorithms for a rover in a simulated world similar to the NASA Sample Return Challenge. We were provided an unknown environment in Unity simulation and asked to generate a map of the navigable terrain and identify samples of interest (gold rocks) from 30 FPS video stream.
 
 Here were the requirements:
 
@@ -67,8 +67,8 @@ With the data from the images I was able to develop a control algorithm. My cont
     the rover is supposed to be moving.  
    * **Pickup**: This is a non-explicit mode that checks if there are any angles to the rocks. If there are the
     robot either stops or slows down as it navigates to the rock. In order to prevent over shooting the rock if 
-    the robot is traveling fast it slams on the brakes and slowly moves to the rock.
-    * **Home**: This mode is untested but is meant to navigate the rover back to its starting place while avoiding
+    the robot is traveling fast it slams on the brakes and slowly moves to the rock.  
+   * **Home**: This mode is untested but is meant to navigate the rover back to its starting place while avoiding
     obstacles.
 
 
