@@ -3,7 +3,14 @@ layout: single
 title:  Kinect MATLAB and OSX
 date:   2016-04-08 18:43
 comments:   true
-tags:   kinect, mac, matlab, osx, Programming, Robotics
+tags:
+  - update
+  - kinect
+  - mac
+  - matlab
+  - osx
+  - Programming
+  - Robotics
 header:
   teaser: /assets/images/smartArmProject-th.jpg
   image: /assets/images/smartArmProject.jpg
