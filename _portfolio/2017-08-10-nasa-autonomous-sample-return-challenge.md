@@ -1,13 +1,15 @@
 ---
 layout: single
-title: NASA Sample Return Challenge
+title:  NASA Sample Return Challenge
 excerpt: "Details on autonomously mapping a simulated environment and searching for and collecting samples of interest"
-date: 2017-08-10 05:00
-comments: true
+date:   2017-08-10 05:00
+comments:   true
 tags: python,unity,OpenCV,control,Programming,Robotics
 header:
   teaser: /assets/images/rover_project_best_run_th.jpg
   image: /assets/images/rover_project_best_run.jpg
+---
+
 <!-- sidebar:
   - title: "Role"
     image: /assets/images/
@@ -15,8 +17,6 @@ header:
     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
     text: "Reuters try PR stupid commenters should isn't a business model" -->
----
-
 
 For the Udacity Robotics Nanodegree our first project was to develop the perception and control algorithms for a rover in a simulated world similar to the NASA Sample Return Challenge. We were provided an unknown environment in Unity simulation and asked to generate a map of the navigable terrain and identify samples of interest (gold rocks) from 30 FPS video stream.
 
