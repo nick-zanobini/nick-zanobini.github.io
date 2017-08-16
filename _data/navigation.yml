@@ -11,8 +11,11 @@ main:
 # sidebar navigation list sample
 rover-project-sidebar:
   - title: "Goal"
-    url: "#goal"
+    url: "/portfolio/2017-08-10-nasa-autonomous-sample-return-challeng/#goal"
   - title: "Solution"
-    url: "#solution"
+    url: "/portfolio/2017-08-10-nasa-autonomous-sample-return-challeng/#solution"
+    children:
+      - title: "Rover States"
+        url: /portfolio/2017-08-10-nasa-autonomous-sample-return-challeng/#rover-states
   - title: "Accomplishments"
-    url: "#accomplishments"
+    url: "/portfolio/2017-08-10-nasa-autonomous-sample-return-challeng/#accomplishments"

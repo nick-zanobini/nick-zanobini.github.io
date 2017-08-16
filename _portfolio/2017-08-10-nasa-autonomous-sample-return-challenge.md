@@ -22,11 +22,13 @@ sidebar:
 ## Goal
 For the Udacity Robotics Nanodegree our first project was to develop the perception and control algorithms for a rover in a simulated world similar to the NASA Sample Return Challenge. We were provided an unknown environment in Unity simulation and asked to generate a map of the navigable terrain and identify samples of interest (gold rocks) from 30 FPS video stream.
 
+My project writeup can be found [here](https://github.com/nick-zanobini/RoboND-Rover-Project/blob/master/writeup.md)
+
 Here were the requirements:
 
 * The rover must map at least 40% of the environment with 60% fidelity (accuracy) against the ground truth. You must also find (map) the location of at least one rock sample.
 
-I decided that if I could find and collect all 6 rock samples I would have to be over the 40% mapped, so I set off to collect all 6 rock samples. Here is my best run:
+I decided that if I could find and collect all 6 rock samples I would have to be over the 40% mapped, so I set off to collect all 6 rock samples. Here is a screenshot of my best run:
 
 <figure>
 	<a href="/assets/images/rover_project_best_run.jpg"><img src="/assets/images/rover_project_best_run.jpg"></a>
