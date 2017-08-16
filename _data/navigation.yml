@@ -6,3 +6,13 @@ main:
     url: /portfolio/
   - title: "Posts"
     url: /year-archive/
+
+
+# sidebar navigation list sample
+rover-project-sidebar:
+  - title: "Goal"
+    url: "#goal"
+  - title: "Solution"
+    url: "#solution"
+  - title: "Accomplishments"
+    url: "#accomplishments"
