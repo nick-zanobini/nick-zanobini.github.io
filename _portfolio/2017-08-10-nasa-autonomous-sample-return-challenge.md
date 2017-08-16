@@ -15,17 +15,23 @@ header:
   teaser: /assets/images/rover_project_best_run_th.jpg
   image: /assets/images/rover_project_best_run.jpg
 sidebar:
-  - toc
+  title: "Sample Title"
+  nav: sidebar-sample
 ---
 
-<!-- {% include toc title="Project Steps" icon="file-text" %}
- --><!-- sidebar:
-  - title: "Role"
-    image: /assets/images/
-    image_alt: "logo"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model" -->
+sidebar-sample:
+  - title: "Parent Page A"
+    children:
+      - title: "Child Page A1"
+        url: /
+      - title: "Child Page A2"
+        url: /
+      - title: "Child Page A3"
+        url: /
+      - title: "Child Page A4"
+        url: /
+  - title: "Parent Page B"
+    children:
 
 ## Goal
 For the Udacity Robotics Nanodegree our first project was to develop the perception and control algorithms for a rover in a simulated world similar to the NASA Sample Return Challenge. We were provided an unknown environment in Unity simulation and asked to generate a map of the navigable terrain and identify samples of interest (gold rocks) from 30 FPS video stream.
