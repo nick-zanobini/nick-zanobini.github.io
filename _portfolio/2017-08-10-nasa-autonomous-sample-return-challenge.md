@@ -15,7 +15,7 @@ header:
   teaser: /assets/images/rover_project_best_run_th.jpg
   image: /assets/images/rover_project_best_run.jpg
 sidebar:
-  - title: {% include toc title="Project Steps" icon="file-text" %}
+  - toc
 ---
 
 <!-- {% include toc title="Project Steps" icon="file-text" %}
