@@ -15,7 +15,7 @@ header:
   teaser: /assets/images/rover_project_best_run_th.jpg
   image: /assets/images/rover_project_best_run.jpg
 sidebar:
-  {% include toc title="Project Steps" icon="file-text" %}
+  - title: {% include toc title="Project Steps" icon="file-text" %}
 ---
 
 <!-- {% include toc title="Project Steps" icon="file-text" %}
@@ -95,5 +95,4 @@ With the data from the images I was able to develop a control algorithm. My cont
 
 This project gave me more experience with OpenCV, Feedback Control, Python, Object Recognition, Mapping, OOP.
 
-## Full Source Code
 Full code and description available [here](https://github.com/nick-zanobini/RoboND-Rover-Project)
