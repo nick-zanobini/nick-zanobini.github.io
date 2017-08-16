@@ -14,10 +14,12 @@ tags:
 header:
   teaser: /assets/images/rover_project_best_run_th.jpg
   image: /assets/images/rover_project_best_run.jpg
+sidebar:
+  {% include toc title="Project Steps" icon="file-text" %}
 ---
 
-{% include toc title="Project Steps" icon="file-text" %}
-<!-- sidebar:
+<!-- {% include toc title="Project Steps" icon="file-text" %}
+ --><!-- sidebar:
   - title: "Role"
     image: /assets/images/
     image_alt: "logo"
@@ -84,7 +86,7 @@ With the data from the images I was able to develop a control algorithm. My cont
     obstacles.
 
 
-## Accomplishments:
+## Accomplishments
 1. Rover was able to successfully navigate around the world and pick up the rocks  
     1. Converting the image to HSV let me isolate the rock easier without false positives like I was getting using the default BGR color-space.  
     1. By eroding the detected rock I was able to make it stand out more. This allowed me to wander in the middle of the path more and still make it to the rocks.  
