@@ -7,7 +7,7 @@ tags:
   - update
   - kinect
   - mac
-  - matlab
+  - MATLAB
   - osx
   - Programming
   - Robotics
