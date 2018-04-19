@@ -5,6 +5,12 @@ date: {}
 tags: python PyQt
 published: true
 ---
+---
+layout: single
+title:  "Bundling PyQt5 with PyInstaller2"
+date:   2018-04-13 17:00:00
+tags:   python PyQt
+---
 
 
 Bundling with PyInstaller  
@@ -85,11 +91,11 @@ A single-file executable will usually take a little longer to start up, because 
 The python code needs to know where that temp folder is, so it can find the files it needs (fonts, graphics, etc.).
 The temporary folder location that PyInstaller uses can be found with `sys._MEIPASS`.  So, to make sure your program can find what it needs, you can use something like this:
 
-```
+{% highlight python %}
 if hasattr(sys, '_MEIPASS'):
     ui_path = os.path.join(sys._MEIPASS, "tempconv_menu.ui")
 else:
     ui_path = "tempconv_menu.ui"
 
 form_class = uic.loadUiType(ui_path)[0]     # Load the UI
-```
+{% endhighlight %}
