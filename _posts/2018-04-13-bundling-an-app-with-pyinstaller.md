@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Bundling PyQt5 with PyInstaller"
+title:  "Bundling PyQt5 with PyInstaller1"
 date:   2018-04-13 17:00:00
 tags:   python PyQt
 ---
@@ -19,9 +19,12 @@ source my_app_env/bin/activate
 	b. Now your terminal should have (my_app_env) Computer_Name Current_Directory username$
 
 2) install all the necessary packages for your app
-	a. ```pip install PyQt5
-		  pip install qdarkstyle```
+	a. 
 
+{% highlight bash %}
+pip install PyQt5
+pip install qdarkstyle
+{% endhighlight %} 
 3)Check to see your program works in the virtual enviroment
 	a. `python my_app.py`
 
