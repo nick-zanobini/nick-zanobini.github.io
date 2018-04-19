@@ -1,39 +1,41 @@
 ---
 layout: single
-title:  "Bundling PyQt5 with PyInstaller2"
-date:   2018-04-13 17:00:00
-tags:   python PyQt
+title: Bundling PyQt5 with PyInstaller2
+date: {}
+tags: python PyQt
+published: true
 ---
 
 
 Bundling with PyInstaller  
-1) Create a virtual enviorment for your app  
-    a.  
+1) Create a virtual enviorment for your app   
 
 {% highlight bash %}
 cd my_app_folder
 pip install virtualenv
 virtualenv my_app_env
 source my_app_env/bin/activate
-{% endhighlight %} 
-    b. Now your terminal should have (my_app_env) Computer_Name Current_Directory username$
-
-2) install all the necessary packages for your app  
-    a. 
+{% endhighlight %}
+Now your terminal should have (my_app_env) Computer_Name Current_Directory username$
+3) install all the necessary packages for your app
 
 {% highlight bash %}
 pip install PyQt5
 pip install qdarkstyle
-{% endhighlight %} 
+{% endhighlight %}
 3)Check to see your program works in the virtual enviroment
-    a. `python my_app.py`
 
+{% highlight bash %}
+python my_app.py
+{% endhighlight %}
 4) Call `pyinstaller` any specific paths for your app (ie. PyQt5)
-    a. `pyinstaller --paths ../PyQt5/Lib/site-packages/PyQt5/Qt/bin -w my_app.py`
 
-5) If you have any data files that need to be bundled with the app then this alone wont work. Modify the `my_app.spec` file to include the necessary data files
-    a. [Reference](http://helloworldbookblog.com/distributing-python-programs-part-2-the-harder-stuff/)
-    b. ```# -*- mode: python -*-
+{% highlight bash %}
+pyinstaller --paths ../PyQt5/Lib/site-packages/PyQt5/Qt/bin -w my_app.py
+{% endhighlight %}
+5) If you have any data files that need to be bundled with the app then this alone wont work. Modify the `my_app.spec` file to include the necessary data files. [Reference](http://helloworldbookblog.com/distributing-python-programs-part-2-the-harder-stuff/)
+{% highlight python %}
+# -*- mode: python -*-
 block_cipher = None
 a = Analysis(['my_app.py'],
              pathex=['../PyQt5/Lib/site-packages/PyQt5/Qt/bin', '/path/to/folder/containing/my_app'],
@@ -68,8 +70,7 @@ app = BUNDLE(coll,
              name='AppName.app',
              icon='./icon.icns',
              bundle_identifier=None)
-```
-
+{% endhighlight %}
 6) Call `pyinstaller` with the spec file
     a. `pyinstaller AppName.spec`
 
@@ -92,4 +93,3 @@ else:
 
 form_class = uic.loadUiType(ui_path)[0]     # Load the UI
 ```
-
