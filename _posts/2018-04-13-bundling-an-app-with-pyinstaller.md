@@ -9,6 +9,7 @@ tags:   python PyQt
 Bundling with PyInstaller  
 1) create a virtual enviorment for your app
 	a.  
+
       {% highlight bash %}
       cd my_app_folder
 		  pip install virtualenv
@@ -17,7 +18,7 @@ Bundling with PyInstaller
       {% endhighlight %} 
 
 	b. Now your terminal should have (my_app_env) Computer_Name Current_Directory username$
-   
+
 2) install all the necessary packages for your app
 	a. ```pip install PyQt5
 		  pip install qdarkstyle```
