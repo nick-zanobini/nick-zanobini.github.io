@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Bundling PyQt5 with PyInstaller1"
+title:  "Bundling PyQt5 with PyInstaller2"
 date:   2018-04-13 17:00:00
 tags:   python PyQt
 ---
@@ -18,7 +18,7 @@ source my_app_env/bin/activate
 {% endhighlight %} 
     b. Now your terminal should have (my_app_env) Computer_Name Current_Directory username$
 
-2) install all the necessary packages for your app
+2) install all the necessary packages for your app  
     a. 
 
 {% highlight bash %}
