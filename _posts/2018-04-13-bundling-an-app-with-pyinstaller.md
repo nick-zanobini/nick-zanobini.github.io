@@ -1,5 +1,12 @@
 ---
 layout: single
+title: Bundling PyQt5 with PyInstaller2
+date: {}
+tags: python PyQt
+published: true
+---
+---
+layout: single
 title:  "Bundling PyQt5 with PyInstaller2"
 date:   2018-04-13 17:00:00
 tags:   python PyQt
