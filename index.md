@@ -10,7 +10,9 @@ I'm a Controls Engineer, Robotics Enthusiast, Equipment Designer and Python Deve
 
 I completed my undergrad (2012 - 2016) in [Electrical Engineering with an Emphasis in Computer Engineering](http://cse.lmu.edu/department/electricalengineeringandcomputerscience/)  and played [Water Polo](http://www.lmulions.com/sports/m-wpolo/loyo-m-wpolo-body.html) at [Loyola Marymount University](http://www.lmu.edu/).
 
-Currently I am working at [Boston Scientific Neuromodulation](http://www.bostonscientific.com/en-US/about-us/core-businesses/neuromodulation.html) on the Equipment Engineering team, developing new automated solutions for manufacturing medical devices.
+Currently I am a Senior Manufacturing Engineer for [Resonetics](https://resonetics.com/) in Davis, CA (formerly Aduro Laser) where we laser cut tubular medical device components, where I focus on increasing throughput and efficency through automation and data visualization. 
+
+Previously I worked at [Boston Scientific Neuromodulation](http://www.bostonscientific.com/en-US/about-us/core-businesses/neuromodulation.html) on the Equipment Engineering team, developing new automated solutions for manufacturing medical devices.
 
 I love building robots and I am always working on two or three projects on the nights and weekends. My goal is as to document them here as I bring them to some temporary form of completion.  
 
@@ -25,13 +27,14 @@ When I'm not building robots and automating everything I love to travel, explore
 ### Some of my favorite quotes.  
 >Don't wait. The time will never be just right. – Napoleon Hill
 
->Most great people have attained their greatest success just one step beyond their greatest failure.
-– Napoleon Hill
+>Most great people have attained their greatest success just one step beyond their greatest failure. – Napoleon Hill
 
->Education is what other people do to me, learning is what you do to yourself.
-– Joi Ito
+>Education is what other people do to me, learning is what you do to yourself. – Joi Ito
 
 >The starting point of all achievement is desire. – Napoleon Hill
 
->There are no limitations to the mind except those we acknowledge.
-– Napoleon Hill
+>The most powerful force in the universe is compound interest - Albert Einstein.
+
+>There are no limitations to the mind except those we acknowledge. – Napoleon Hill
+
+>Men and women range themselves into three classes or orders of intelligence; you can tell the lowest class by their habit of always talking about persons; the next by the fact that their habit is always to converse about things; the highest by their preference for the discussion of ideas. – Henry Thomas Buckle
