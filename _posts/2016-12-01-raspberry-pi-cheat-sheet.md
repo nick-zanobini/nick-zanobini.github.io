@@ -94,3 +94,16 @@ sudo apt-get install netatalk
 
 This adds support for Apple Filing Protocol, making it easy to move files back and forth in the Finder.
 [Source](https://learn.adafruit.com/bonjour-zeroconf-networking-for-windows-and-linux/overview)
+
+
+### Flip Touchscreen 180 Degrees
+
+You need to edit the config file `/boot/config.txt` and add the line `lcd_rotate=2`
+
+
+### Enable SSH on Headless Pi
+
+After burning Raspian to your SD card go to the boot folder on the SD card and create a blank file `ssh` with no extension. 
+
+
+
