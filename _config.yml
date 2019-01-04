@@ -11,7 +11,8 @@ title                    : "Nick Zanobini"
 title_separator          : "-"
 name                     : "Nick Zanobini"
 description              : "A place to share my robotics, coding and eletronics projecets and thoughts."
-url                      : "https://nick-zanobini.github.io" # the base hostname & protocol for your site 
+#url                      : "https://nick-zanobini.github.io" # the base hostname & protocol for your site 
+url                      : "https://nick.zanobini.org" # the base hostname & protocol for your site 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "nick-zanobini/nick-zanobini.github.io" # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
